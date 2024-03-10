@@ -20,8 +20,10 @@
 - Stubbing the API's response by returning one book only
 - Request/Response Modification with routeHandler
 
-## Branch 5- Visual Test with the plugin "cypress-visual-regression"
+# Branch 5 - Visual Test with the plugin "cypress-visual-regression"
 
 1. Generate the base images by CLI: **npx cypress run --spec "cypress/e2e/visual-regression.cy.js" --env type=base**
 2. Update the URL to '/index_v2.html' in cypress/e2e/visualtest.cy.js to make the different points
 3. Generate the actual & different images: **npx cypress run --spec "cypress/e2e/visual-regression.cy.js" --env type=regression**
+
+# Branch 6 - Page Object Model Design Pattern
