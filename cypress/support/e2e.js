@@ -19,3 +19,8 @@ import "cypress-axe";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+const {
+  addCompareSnapshotCommand,
+} = require("cypress-visual-regression/dist/command");
+addCompareSnapshotCommand({ capture: "fullPage" });
