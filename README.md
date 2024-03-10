@@ -14,3 +14,8 @@
 # Branch 1 - Accessibility Test with AXE
 
 - Require to install the additional 2 dependencies: $ npm install --save-dev cypress-axe axe-core
+
+# Branch 2 - Intercept request => Spy and stub network requests and responses
+
+- Stubbing the API's response by returning one book only
+- Request/Response Modification with routeHandler
