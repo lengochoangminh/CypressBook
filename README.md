@@ -10,3 +10,7 @@
 - Switch to Alert Example
 
 3. Interact to the iFrame. Require to install the additional dependency
+
+# Branch 1 - Accessibility Test with AXE
+
+- Require to install the additional 2 dependencies: $ npm install --save-dev cypress-axe axe-core
