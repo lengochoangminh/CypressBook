@@ -19,3 +19,8 @@
 
 - Stubbing the API's response by returning one book only
 - Request/Response Modification with routeHandler
+
+# Branch 3 - Visual Test with Applitools
+
+- Require the API key from a registered Applitool account
+- And install the additional dependencies: $ npm install @applitools/eyes-cypress & $ npx eyes-setup
