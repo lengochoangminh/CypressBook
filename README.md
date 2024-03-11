@@ -26,4 +26,4 @@
 2. Update the URL to '/index_v2.html' in cypress/e2e/visualtest.cy.js to make the different points
 3. Generate the actual & different images: **npx cypress run --spec "cypress/e2e/visual-regression.cy.js" --env type=regression**
 
-# Branch 6 - Page Object Model Design Pattern
+# Branch 6 - Page Object Model Design Pattern + Cypress-cucumber-preprocessor plugin
